@@ -33,3 +33,53 @@
 
 </body>
 </html>
+
+ 
+
+///CSS FIle
+
+
+
+#mainTopic{
+    color: blue;
+}
+
+*{
+    text-align: center;
+}
+
+.Georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+div button {
+    background-color: purple;
+    color: azure;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+input{
+    background-color: darkgreen;
+}
+
+button:hover {
+    background-color: yellow;
+    color: blue;
+  }
+
+p:nth-of-type(odd) {
+    color: yellow;
+}
+
+#yes:checked + label {
+    color: darkgreen;
+  }
+  
